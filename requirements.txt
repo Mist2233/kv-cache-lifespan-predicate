@@ -1,0 +1,14 @@
+# 核心依赖
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+Pillow>=10.0
+
+# 真实推理与 trace 采集（需要 CUDA GPU）
+torch>=2.4
+transformers>=4.45
+vllm>=0.31
+pyzmq>=25.0
+msgspec>=0.18

@@ -1,0 +1,40 @@
+# ===== 内部材料（不公开）=====
+毕设选题参考.md
+个人日志记录.md
+给华为的汇总文档.md
+交接文档.md
+EXPERIMENT_LOG.md
+docs/
+archive/
+
+# ===== 日志 =====
+logs/
+logs_*.txt
+*.log
+
+# ===== 大数据 / 模型权重 / 缓存（体积过大，且可由脚本重新生成）=====
+data/
+models/
+pylibs/
+.hf/
+.mplconfig/
+*.npz
+*.safetensors
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+
+# 一次性环境脚本
+scripts_wait_gpu.sh
+
+# 本地图片归档（不公开）
+figs/_old/
